@@ -5,7 +5,7 @@
 ##### Core scientific packages
 jupyter==1.0.0
 matplotlib==3.1.2
-numpy==1.17.3
+numpy==1.22.2
 pandas==0.25.3
 scipy==1.3.1
 
@@ -62,7 +62,7 @@ Pillow==6.2.1
 scikit-image==0.16.2
 graphviz
 pydot==1.4.1
-opencv-python==4.1.2.30
+opencv-python==4.2.0.32.30
 pyglet==1.3.2
 
 #pyvirtualdisplay # needed in chapter 16, if on a headless server
@@ -92,3 +92,5 @@ urlextract==0.13.0
 # Optional: tqdm displays nice progress bars, ipywidgets for tqdm's notebook support
 tqdm==4.40.0
 ipywidgets==7.5.1
+pyyaml>=5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
